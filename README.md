@@ -84,8 +84,58 @@ twoDim[0][0] = 1;
 
 ![mortgage_calculator](https://i.imgur.com/JHTpyrN.png)
 
+##### Class Example with toString, Methods, Getters and Setters:
+
+```java
+public class Employee {
+    private String name;
+    private String address;
+    private int number;
+
+    public Employee(String name, String address, int number) {
+        System.out.println("Constructing an Employee");
+        this.name = name;
+        this.address = address;
+        this.number = number;
+    }
+
+    // Method
+    public void mailCheck() {
+        System.out.println("Mailing a check to " + this.name + " " + this.address);
+    }
+
+    // The toString() method returns the string representation of the object.
+    public String toString() {
+        return name + " " + address + " " + number;
+    }
+
+    // Getters
+    public String getName() {
+        return name;
+    }
+
+    // Getters
+    public String getAddress() {
+        return address;
+    }
+
+    // Setters
+    public void setAddress(String newAddress) {
+        address = newAddress;
+    }
+
+    // Getters
+    public int getNumber() {
+        return number;
+    }
+}
+
+```
+
 ##### Oops:
 
 1. Inheritance - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
 
 2. Overriding - If a class inherits a method from its superclass, then there is a chance to override the method provided that it is not marked final. The benefit of overriding is: ability to define a behavior that's specific to the subclass type.
+
+3. Polymorphism - Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
