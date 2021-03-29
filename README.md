@@ -83,3 +83,7 @@ twoDim[0][0] = 1;
 ##### Mortgage Calculator Example in Java:
 
 ![mortgage_calculator](https://i.imgur.com/JHTpyrN.png)
+
+##### Oops:
+
+1. Inheritance - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
