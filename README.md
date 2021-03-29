@@ -79,3 +79,7 @@ int[] numers2 = {1,2,3,4};
 int[][] twoDim = new int[2][3];
 twoDim[0][0] = 1;
 ```
+
+##### Mortgage Calculator Example in Java:
+
+![mortgage_calculator](https://i.imgur.com/JHTpyrN.png)
