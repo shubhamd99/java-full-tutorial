@@ -73,7 +73,7 @@ public class Main {
 
 * Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.
 
-```java
+```
 int[] numers2 = {1,2,3,4};
 
 int[][] twoDim = new int[2][3];
