@@ -139,3 +139,5 @@ public class Employee {
 2. Overriding - If a class inherits a method from its superclass, then there is a chance to override the method provided that it is not marked final. The benefit of overriding is: ability to define a behavior that's specific to the subclass type.
 
 3. Polymorphism - Polymorphism is the ability of an object to take on many forms. The most common use of polymorphism in OOP occurs when a parent class reference is used to refer to a child class object.
+
+4. Abstraction - Abstraction is a process of hiding the implementation details from the user, only the functionality will be provided to the user. Abstract classes may or may not contain abstract methods.
