@@ -10,5 +10,9 @@ public class Main {
 
         int myAge = age;
         System.out .println(myAge);
+
+        // Constants
+        // Once we initialize we cannot change it later
+        final float PI = 3.14F;
     }
 }
