@@ -68,3 +68,14 @@ public class Main {
 * The main difference between primitive and reference type is that primitive type always has a value, it can never be null but reference type can be null, which denotes the absence of value.
 * So if you create a primitive variable of type int and forget to initialize it then it's value would be 0, the default value of integral type in Java, but a reference variable by default has a null
 * In short, the main difference between the two types is that primitive types store actual values but reference type stores handle to object in the heap.
+
+##### Arrays:
+
+* Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location. It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.
+
+```java
+int[] numers2 = {1,2,3,4};
+
+int[][] twoDim = new int[2][3];
+twoDim[0][0] = 1;
+```
