@@ -12,7 +12,7 @@ public class Main {
 
     // main - Java main method is the entry point of any java program.
 
-    // String[] - Java main method accepts a single argument of type String array. This is also called as java command line arguments. 
+    // String[] - Java main method accepts a single argument of type String array. This is also called as java command line arguments.
 
     public static void main(String[] args) {
 	// write your code here
