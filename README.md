@@ -24,6 +24,8 @@ public class MyFirstJavaProgram {
    }
 }
 ```
+CMD - javac Main.java
+![execution](https://i.imgur.com/mUOa3p7.png)
 
 ##### Applications of Java Programming
 
