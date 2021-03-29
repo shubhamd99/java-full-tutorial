@@ -87,3 +87,5 @@ twoDim[0][0] = 1;
 ##### Oops:
 
 1. Inheritance - Inheritance can be defined as the process where one class acquires the properties (methods and fields) of another. With the use of inheritance the information is made manageable in a hierarchical order.
+
+2. Overriding - If a class inherits a method from its superclass, then there is a chance to override the method provided that it is not marked final. The benefit of overriding is: ability to define a behavior that's specific to the subclass type.
