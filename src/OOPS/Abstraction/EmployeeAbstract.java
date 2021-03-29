@@ -1,5 +1,6 @@
 package OOPS.Abstraction;
 
+// Anstract Class
 public abstract class EmployeeAbstract {
     private String name;
     private String address;
@@ -12,10 +13,10 @@ public abstract class EmployeeAbstract {
         this.number = number;
     }
 
-    public double computePay() {
-        System.out.println("Inside Employee computePay");
-        return 0.0;
-    }
+    // Abstract Method
+    // If you want a class to contain a particular method but you want the actual implementation of that method to be determined by child classes,
+    // you can declare the method in the parent class as an abstract.
+    public abstract double computePay();
 
     public void mailCheck() {
         System.out.println("Mailing a check to " + this.name + " " + this.address);
