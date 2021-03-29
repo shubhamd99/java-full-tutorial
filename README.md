@@ -58,3 +58,13 @@ public class Main {
     2. Default - The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
     3. Protected - The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
     4. Public - The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+
+##### Types:
+
+1. Primitive Types - For storing simple values. Copy by the values.
+   ![img](https://i.imgur.com/DBYVRWN.png)
+2. Reference Types - For storing complex objects. Copy by the references.
+
+* The main difference between primitive and reference type is that primitive type always has a value, it can never be null but reference type can be null, which denotes the absence of value.
+* So if you create a primitive variable of type int and forget to initialize it then it's value would be 0, the default value of integral type in Java, but a reference variable by default has a null
+* In short, the main difference between the two types is that primitive types store actual values but reference type stores handle to object in the heap.
