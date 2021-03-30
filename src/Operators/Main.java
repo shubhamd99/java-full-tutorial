@@ -23,5 +23,10 @@ public class Main {
 
         boolean hasCriminalRecord = false;
         System.out.println((hasHighIncome || hasGoodCredit) && !hasCriminalRecord); // true
+
+        // Ternary Operators
+        int income = 120_000;
+        String className = income > 100_000 ? "First" : "Economy";
+
     }
 }
