@@ -145,3 +145,11 @@ public class Employee {
 5. Encapsulation -  Encapsulation is one of the four fundamental OOP concepts. The other three are inheritance, polymorphism, and abstraction. Encapsulation in Java is a mechanism of wrapping the data (variables) and code acting on the data (methods) together as a single unit. In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
 
 6. Interfaces - An interface is a reference type in Java. It is similar to class. It is a collection of abstract methods. A class implements an interface, thereby inheriting the abstract methods of the interface.
+
+##### Multi-Threading:
+
+* Java is a multi-threaded programming language which means we can develop multi-threaded program using Java.
+
+* A multi-threaded program contains two or more parts that can run concurrently and each part can handle a different task at the same time making optimal use of the available resources specially when your computer has multiple CPUs.
+
+![multi](https://i.imgur.com/0DuSGbR.png)
